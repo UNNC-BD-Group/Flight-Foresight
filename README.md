@@ -18,6 +18,8 @@ Preference ranking:
 - :bookmark:**BD07** An Optimised Classification for Flight Status
 - :bookmark:**BD09** Analysis the Impact of Green Infrastructure on Carbon Monoxide Reduction
 - :bookmark:**BD05** Climate Change Analysis in Brazil
+
+
 Final decision: `waiting for professor assignment`
 
 ## Documents
@@ -48,6 +50,7 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 
 ## TO DO
 - [ ] :hourglass:Topic Preparing
+  - [x] Send Topic Choose Email
   - [ ] Confirm Topic
   - [ ] Collect Topic Basic Information
   - [x] Team GitHub Init
@@ -57,7 +60,7 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 ## Methods
 ## Reports
 ## Package References
-<div style="background-color:black; padding: 1rem; border-radius: 10pt;">
+<div style="background-color:grey; padding: 1rem; border-radius: 10pt;">
   <a href="https://www.python.org/">
     <img src="https://www.python.org/static/img/python-logo.png" width="120">
   </a>
