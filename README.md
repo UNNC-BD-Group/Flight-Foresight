@@ -32,6 +32,18 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 #### Representation Slide Template
 :file_folder:[CW presenation -Template.pptx](./docs/Templates/CW%20presenation%20-Template.pptx) `Update: 2023/04/08` `pptx`
 
+### Cheatsheet
+- :spiral_notepad:[Spark Cheatsheet](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
+- :spiral_notepad:[Python Cheatsheet](https://www.pythoncheatsheet.org/)
+- :spiral_notepad:[Pandas Cheatsheet](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python)
+- :spiral_notepad:[Numpy Cheatsheet](https://www.datacamp.com/cheat-sheet/numpy-cheat-sheet-data-analysis-in-python)
+- :spiral_notepad:[Matplotlib Cheatsheet](https://matplotlib.org/cheatsheets/)
+- :spiral_notepad:[PyTorch Cheatsheet](https://pytorch.org/tutorials/beginner/ptcheat.html)
+### Documentation
+- :spiral_notepad:[Python Documentation `3.11.3`](https://docs.python.org/3/)
+- :spiral_notepad:[Spark Documentation `3.3.2`](https://spark.apache.org/docs/latest/)
+- :spiral_notepad:[PyTorch Documentation `2.0`](https://pytorch.org/docs/stable/index.html)
+
 
 
 ## TO DO
