@@ -56,3 +56,18 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 ## Dataset
 ## Methods
 ## Reports
+## Package References
+<div style="background-color:black; padding: 1rem; border-radius: 10pt;">
+  <a href="https://www.python.org/">
+    <img src="https://www.python.org/static/img/python-logo.png" width="120">
+  </a>
+  <a href="https://spark.apache.org/">
+    <img src="https://spark.apache.org/images/spark-logo-rev.svg">
+  </a>
+  <a href="https://numpy.org/">
+    <img src="https://numpy.org/images/logo.svg" width="40">
+  </a>
+  <a href="https://www.kaggle.com/">
+    <img src="https://www.kaggle.com/static/images/site-logo.svg" width="80">
+  </a>
+</div>
