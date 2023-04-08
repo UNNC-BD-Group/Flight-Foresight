@@ -2,6 +2,12 @@
 
 ## Introduction
 This is the repository for UNNC Big Data Coursework Group `(COMP4107)`.
+
+The course information are:
+- **Big Data**
+- COMP4107
+- UNNC 2023 Final Year Module
+
 The members of this group are:
 - :student:**Ran JI** 20217337
   :mailbox:scyrj1@nottingham.edu.cn
@@ -60,17 +66,17 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 ## Methods
 ## Reports
 ## Package References
-<div style="background-color:grey; padding: 1rem; border-radius: 10pt;">
-  <a href="https://www.python.org/">
+<div style="padding: 1rem; border-radius: 10pt;">
+  <a href="https://www.python.org/" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
     <img src="https://www.python.org/static/img/python-logo.png" width="120">
   </a>
   <a href="https://spark.apache.org/">
-    <img src="https://spark.apache.org/images/spark-logo-rev.svg">
+    <img src="https://spark.apache.org/images/spark-logo-rev.svg" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
   </a>
   <a href="https://numpy.org/">
-    <img src="https://numpy.org/images/logo.svg" width="40">
+    <img src="https://numpy.org/images/logo.svg" width="40" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
   </a>
   <a href="https://www.kaggle.com/">
-    <img src="https://www.kaggle.com/static/images/site-logo.svg" width="80">
+    <img src="https://www.kaggle.com/static/images/site-logo.svg" width="80" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
   </a>
 </div>
