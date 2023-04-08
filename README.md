@@ -1,5 +1,5 @@
+![alt](./imgs/UoN_Primary_Logo_RGB.png)
 # COMP4107 Big Data Coursework Group
-
 ## Introduction
 This is the repository for UNNC Big Data Coursework Group `(COMP4107)`.
 
@@ -28,6 +28,14 @@ Preference ranking:
 
 Final decision: `waiting for professor assignment`
 
+## TO DO
+- [ ] :hourglass:Topic Preparing
+  - [x] Send Topic Choose Email
+  - [ ] Confirm Topic
+  - [ ] Collect Topic Basic Information
+  - [x] Team GitHub Init
+  - [x] Team Chat Group Init
+
 ## Documents
 ### Coursework Specification
 :file_folder:[Coursework for COMP4107 Big Data.pdf](./docs/Coursework%20for%20COMP4107%20Big%20Data.pdf) `Update: 2023/04/08`
@@ -48,19 +56,14 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 - :spiral_notepad:[Matplotlib Cheatsheet](https://matplotlib.org/cheatsheets/)
 - :spiral_notepad:[PyTorch Cheatsheet](https://pytorch.org/tutorials/beginner/ptcheat.html)
 ### Documentation
-- :spiral_notepad:[Python Documentation `3.11.3`](https://docs.python.org/3/)
-- :spiral_notepad:[Spark Documentation `3.3.2`](https://spark.apache.org/docs/latest/)
-- :spiral_notepad:[PyTorch Documentation `2.0`](https://pytorch.org/docs/stable/index.html)
+- :notebook:[Python Documentation `3.11.3`](https://docs.python.org/3/)
+- :notebook:[Spark Documentation `3.3.2`](https://spark.apache.org/docs/latest/)
+- :notebook:[PyTorch Documentation `2.0`](https://pytorch.org/docs/stable/index.html)
 
+### Resource
+#### ICON
+- :framed_picture:[UNNC ICON](./imgs/UoN_Primary_Logo_RGB.png)
 
-
-## TO DO
-- [ ] :hourglass:Topic Preparing
-  - [x] Send Topic Choose Email
-  - [ ] Confirm Topic
-  - [ ] Collect Topic Basic Information
-  - [x] Team GitHub Init
-  - [x] Team Chat Group Init
 
 ## Dataset
 ## Methods
