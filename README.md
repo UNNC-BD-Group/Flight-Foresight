@@ -1,5 +1,5 @@
 ![alt](./imgs/UoN_Primary_Logo_RGB.png)
-# COMP4107 Big Data Coursework Group
+# :large_orange_diamond:COMP4107 Big Data Coursework Group
 ## :large_blue_diamond:Introduction
 This is the repository for UNNC Big Data Coursework Group `(COMP4107)`.
 
@@ -17,7 +17,8 @@ The members of this group are:
   :mailbox:scyjl6@nottingham.edu.cn
 
 This coursework is supervised by:
-:man_teacher: Professor Lu ZHENG.
+
+:man_teacher:Professor Zheng LU.
 
 ## :large_blue_diamond:Topic
 Preference ranking:
@@ -29,6 +30,13 @@ Preference ranking:
 Final decision: `waiting for professor assignment`
 
 ## :large_blue_diamond:TO DO
+```meimaid
+gitGraph
+    commit id: "Init Project"
+    commit id: "Group Create"
+    commit id: "Git Repository Create"
+    commit id: "Topic Selection Email Sent"
+```
 - [ ] :hourglass:Topic Preparing
   - [x] Send Topic Choose Email
   - [ ] Confirm Topic
