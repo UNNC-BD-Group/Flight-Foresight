@@ -30,7 +30,7 @@ Preference ranking:
 Final decision: `waiting for professor assignment`
 
 ## :large_blue_diamond:TO DO
-```meimaid
+```mermaid
 gitGraph
     commit id: "Init Project"
     commit id: "Group Create"
