@@ -1,6 +1,6 @@
 ![alt](./imgs/UoN_Primary_Logo_RGB.png)
 # COMP4107 Big Data Coursework Group
-## Introduction
+## :large_blue_diamond:Introduction
 This is the repository for UNNC Big Data Coursework Group `(COMP4107)`.
 
 The course information are:
@@ -19,7 +19,7 @@ The members of this group are:
 This coursework is supervised by:
 :man_teacher: Professor Lu ZHENG.
 
-## Topic
+## :large_blue_diamond:Topic
 Preference ranking:
 - :bookmark:**BD07** An Optimised Classification for Flight Status
 - :bookmark:**BD09** Analysis the Impact of Green Infrastructure on Carbon Monoxide Reduction
@@ -28,7 +28,7 @@ Preference ranking:
 
 Final decision: `waiting for professor assignment`
 
-## TO DO
+## :large_blue_diamond:TO DO
 - [ ] :hourglass:Topic Preparing
   - [x] Send Topic Choose Email
   - [ ] Confirm Topic
@@ -36,10 +36,10 @@ Final decision: `waiting for professor assignment`
   - [x] Team GitHub Init
   - [x] Team Chat Group Init
 
-## Documents
-### Coursework Specification
+## :large_blue_diamond:Documents
+### :small_blue_diamond:Coursework Specification
 :file_folder:[Coursework for COMP4107 Big Data.pdf](./docs/Coursework%20for%20COMP4107%20Big%20Data.pdf) `Update: 2023/04/08`
-### Templates
+### :small_blue_diamond:Templates
 #### Report Template
 :file_folder:[Conference-LaTeX-template.zip](./docs/Templates/Conference-LaTeX-template.zip) `Update: 2023/04/08` `LaTeX`
 
@@ -48,27 +48,31 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 #### Representation Slide Template
 :file_folder:[CW presenation -Template.pptx](./docs/Templates/CW%20presenation%20-Template.pptx) `Update: 2023/04/08` `pptx`
 
-### Cheatsheet
+### :small_blue_diamond:Cheatsheet
 - :spiral_notepad:[Spark Cheatsheet](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
 - :spiral_notepad:[Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - :spiral_notepad:[Pandas Cheatsheet](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python)
 - :spiral_notepad:[Numpy Cheatsheet](https://www.datacamp.com/cheat-sheet/numpy-cheat-sheet-data-analysis-in-python)
 - :spiral_notepad:[Matplotlib Cheatsheet](https://matplotlib.org/cheatsheets/)
 - :spiral_notepad:[PyTorch Cheatsheet](https://pytorch.org/tutorials/beginner/ptcheat.html)
-### Documentation
+### :small_blue_diamond:Documentation
 - :notebook:[Python Documentation `3.11.3`](https://docs.python.org/3/)
 - :notebook:[Spark Documentation `3.3.2`](https://spark.apache.org/docs/latest/)
 - :notebook:[PyTorch Documentation `2.0`](https://pytorch.org/docs/stable/index.html)
 
-### Resource
+### :small_blue_diamond:Resource
 #### ICON
 - :framed_picture:[UNNC ICON](./imgs/UoN_Primary_Logo_RGB.png)
 
 
-## Dataset
-## Methods
-## Reports
-## Package References
+## :large_blue_diamond:Dataset
+_wait for topic confirm_
+## :large_blue_diamond:Methods
+_wait for topic confirm_
+## :large_blue_diamond:Reports
+_wait for topic confirm_
+
+
 <div style="padding: 1rem; border-radius: 10pt;">
   <a href="https://www.python.org/" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
     <img src="https://www.python.org/static/img/python-logo.png" width="120">
