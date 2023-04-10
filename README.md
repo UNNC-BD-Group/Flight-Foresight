@@ -81,17 +81,17 @@ _wait for topic confirm_
 _wait for topic confirm_
 
 
-<div style="padding: 1rem; border-radius: 10pt;">
-  <a href="https://www.python.org/" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
-    <img src="https://www.python.org/static/img/python-logo.png" width="120">
-  </a>
-  <a href="https://spark.apache.org/">
-    <img src="https://spark.apache.org/images/spark-logo-rev.svg" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
-  </a>
-  <a href="https://numpy.org/">
-    <img src="https://numpy.org/images/logo.svg" width="40" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
-  </a>
-  <a href="https://www.kaggle.com/">
-    <img src="https://www.kaggle.com/static/images/site-logo.svg" width="80" style="filter: drop-shadow(rgb(249, 254, 184) 5px 5px 8px);">
-  </a>
-</div>
+>  <div style="padding: 1rem; border-radius: 10pt;">
+>    <a href="https://www.python.org/">
+>      <img src="https://www.python.org/static/img/python-logo.png" width="120">
+>    </a>
+>    <a href="https://spark.apache.org/">
+>      <img src="https://spark.apache.org/images/spark-logo-rev.svg">
+>    </a>
+>    <a href="https://numpy.org/">
+>      <img src="https://numpy.org/images/logo.svg" width="40">
+>    </a>
+>    <a href="https://www.kaggle.com/">
+>      <img src="https://www.kaggle.com/static/images/site-logo.svg" width="80">
+>    </a>
+>  </div>
