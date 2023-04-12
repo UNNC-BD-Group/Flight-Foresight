@@ -106,30 +106,36 @@ The datasets contain daily airline information covering from flight information,
 |4     |ORIGIN           |`String`            |Origin Airport|
 |5     |DEST             |`String`            |Destination Airport|
 |6     |CRS_DEP_TIME     |`Integer` (hhmm)    |CRS Departure Time (local time: hhmm) |
-|7     |DEP_TIME         |`Float`             |Actual Departure Time (local time: hhmm)|
-|8     |DEP_DELAY        |`Float`             |Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.|
+|7     |DEP_TIME         |`Integer` (hhmm)    |Actual Departure Time (local time: hhmm)|
+|8     |DEP_DELAY        |`Integer`           |Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.|
 |9     |TAXI_OUT         |`Integer` (hhmm)    |Taxi Out Time, in Minutes|
 |10    |WHEELS_OFF       |`Integer` (hhmm)    |Wheels Off Time (local time: hhmm)|
-|11    |WHEELS_ON        |`Float`             |Wheels On Time (local time: hhmm)|
+|11    |WHEELS_ON        |`Integer` (hhmm)    |Wheels On Time (local time: hhmm)|
 |12    |TAXI_IN          |`Integer` (hhmm)    |Taxi In Time, in Minutes|
-|13    |CRS_ARR_TIME     |`Float`             |CRS Arrival Time (local time: hhmm)|
-|14    |ARR_TIME         |`Float`             |Actual Arrival Time (local time: hhmm)|
-|15    |ARR_DELAY        |`Float`             |Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.|
+|13    |CRS_ARR_TIME     |`Integer` (hhmm)    |CRS Arrival Time (local time: hhmm)|
+|14    |ARR_TIME         |`Integer` (hhmm)    |Actual Arrival Time (local time: hhmm)|
+|15    |ARR_DELAY        |`Integer`           |Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.|
 |16    |CANCELLED        |`Integer` (0,1)     |Cancelled Flight Indicator (1=Yes)|
 |17    |CANCELLATION_CODE|`Char` (A,B,C,D)    |Specifies The Reason For Cancellation, A:Carrier, B:Weather, C:National Air System, D:Security|
 |18    |DIVERTED         |`Integer` (0,1)     |Diverted Flight Indicator (1=Yes)|
-|19    |CRS_ELAPSED_TIME |`Float`             |CRS Elapsed Time of Flight, in Minutes|
-|20    |ACTUAL_ELAPSED_TIME|`Float`             |Elapsed Time of Flight, in Minutes|
-|21    |AIR_TIME         |`Float`             |Flight Time, in Minutes|
-|22    |DISTANCE         |`Float`             |Distance between airports (miles)|
-|23    |CARRIER_DELAY    |`Float`             |Carrier Delay, in Minutes|
-|24    |WEATHER_DELAY    |`Float`             |Weather Delay, in Minutes|
-|25    |NAS_DELAY        |`Float`             |National Air System Delay, in Minutes|
-|26    |SECURITY_DELAY   |`Float`             |Security Delay, in Minutes|
-|27    |LATE_AIRCRAFT_DELAY|`Float`             |Late Aircraft Delay, in Minutes|
+|19    |CRS_ELAPSED_TIME |`Integer`           |CRS Elapsed Time of Flight, in Minutes|
+|20    |ACTUAL_ELAPSED_TIME|`Integer`           |Elapsed Time of Flight, in Minutes|
+|21    |AIR_TIME         |`Integer`           |Flight Time, in Minutes|
+|22    |DISTANCE         |`Integer`           |Distance between airports (miles)|
+|23    |CARRIER_DELAY    |`Integer`           |Carrier Delay, in Minutes|
+|24    |WEATHER_DELAY    |`Integer`           |Weather Delay, in Minutes|
+|25    |NAS_DELAY        |`Integer`           |National Air System Delay, in Minutes|
+|26    |SECURITY_DELAY   |`Integer`           |Security Delay, in Minutes|
+|27    |LATE_AIRCRAFT_DELAY|`Integer`           |Late Aircraft Delay, in Minutes|
 
+#### Terminology
+|Terminology|Abbreviation|Description|Link|
+|:----------|:-----------|:----------|:---|
+|Computerized Reservations Systems|**`CRS`**|A computer reservation system or a central reservation system (CRS) is a web-based software used by travel agencies and travel management companies to retrieve and conduct transactions related to air travel, hotels, car rental, or other activities.|[<img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" width="32">WIKIPEDIA](https://en.wikipedia.org/wiki/Computer_reservation_system)|
+|National Air System|**`NAS`**|The National Airspace System (NAS) is the airspace, navigation facilities and airports of the United States along with their associated information, services, rules, regulations, policies, procedures, personnel and equipment.|[<img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" width="32">WIKIPEDIA](https://en.wikipedia.org/wiki/National_Airspace_System)|
 #### Related Datasheet
-- Airport Code Explanation: `CSV` [:spiral_notepad: L_AIRPORT.csv](./datasets/L_AIRPORT.csv)
+- Airport Code Lookup Table: `CSV` [:spiral_notepad: L_AIRPORT.csv](./datasets/L_AIRPORT.csv)
+- Airline Carriers Code Lookup Table: `CSV` [:spiral_notepad: L_UNIQUE_CARRIERS.csv](./datasets/L_UNIQUE_CARRIERS.csv)
 
 
 ## :large_blue_diamond:Methods
