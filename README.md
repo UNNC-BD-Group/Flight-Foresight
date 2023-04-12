@@ -1,6 +1,24 @@
 ![alt](./imgs/UoN_Primary_Logo_RGB.png)
 # :large_orange_diamond:COMP4107 Big Data Coursework Group 2
 
+**:large_orange_diamond:COMP4107 Big Data Coursework**  
+&emsp;&emsp;&#x2523;[:large_blue_diamond:Introduction](#large_blue_diamondintroduction)  
+&emsp;&emsp;&#x2523;[:large_blue_diamond:Topic](#large_blue_diamondtopic)  
+&emsp;&emsp;&#x2523;[:large_blue_diamond:Progress](#large_blue_diamondprogress)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;[:hourglass:TO DO](#hourglassto-do)
+&emsp;&emsp;&#x2523;[:large_blue_diamond:Documents](#large_blue_diamonddocuments)
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Coursework Specification](#file_foldercoursework-specification)
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Templates](#file_foldtemplates)
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Cheatsheet](#file_foldcheatsheet)
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Documentation](#file_folddocumentation)
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;[:file_folder:Resource](#file_foldresource)
+&emsp;&emsp;&#x2523;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;[:package:Airline Delay Analysis](#packageairline-delay-analysis)
+&emsp;&emsp;&#x2523;[:large_blue_diamond:Methods](#large_blue_diamondmethods)
+&emsp;&emsp;&#x2517;[:large_blue_diamond:Reports](#large_blue_diamondreports)
+
+
+
 ## :large_blue_diamond:Introduction
 This is the repository for UNNC Big Data Coursework Group 2`(COMP4107)`.
 
@@ -23,14 +41,14 @@ This coursework is supervised by:
 
 ## :large_blue_diamond:Topic
 Preference ranking:
-- :green_circle::bookmark:**BD07** An Optimised Classification for Flight Status
-- :bookmark:**BD09** Analysis the Impact of Green Infrastructure on Carbon Monoxide Reduction
-- :bookmark:**BD05** Climate Change Analysis in Brazil
+- :green_circle:**BD07** An Optimised Classification for Flight Status
+- :bookmark:~~**BD09** Analysis the Impact of Green Infrastructure on Carbon Monoxide Reduction~~
+- :bookmark:~~**BD05** Climate Change Analysis in Brazil~~
 
 
-Final decision: :bookmark:**BD07** `An Optimised Classification for Flight Status`
+**Final Decision**: :bookmark:**BD07** `An Optimised Classification for Flight Status`
 
-## :large_blue_diamond:TO DO
+## :large_blue_diamond:Progress
 ```mermaid
 gitGraph
     commit id: "Init Project"
@@ -39,17 +57,22 @@ gitGraph
     commit id: "Topic Selection Email Sent"
     commit id: "Topic Confirm BD 07"
 ```
-- [ ] :hourglass:Topic Preparing
+### :hourglass:TO DO
+- [x] :white_check_mark: Topic Preparing
   - [x] Send Topic Choose Email
   - [x] Confirm Topic
-  - [ ] Collect Topic Basic Information
+  - [x] Collect Topic Basic Information
   - [x] Team GitHub Init
   - [x] Team Chat Group Init
+- [ ] :hourglass: Coursework Preparing
+  - [ ] Schedule Prepare
+  - [ ] Environment Prepare
+  - [ ] Topic Discuss
 
 ## :large_blue_diamond:Documents
-### :small_blue_diamond:Coursework Specification
+### :file_folder:Coursework Specification
 :file_folder:[Coursework for COMP4107 Big Data.pdf](./docs/Coursework%20for%20COMP4107%20Big%20Data.pdf) `Update: 2023/04/08`
-### :small_blue_diamond:Templates
+### :file_folder:Templates
 #### Report Template
 :file_folder:[Conference-LaTeX-template.zip](./docs/Templates/Conference-LaTeX-template.zip) `Update: 2023/04/08` `LaTeX`
 
@@ -58,34 +81,34 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 #### Representation Slide Template
 :file_folder:[CW presenation -Template.pptx](./docs/Templates/CW%20presenation%20-Template.pptx) `Update: 2023/04/08` `pptx`
 
-### :small_blue_diamond:Cheatsheet
+### :file_folder:Cheatsheet
 - :spiral_notepad:[Spark Cheatsheet](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
 - :spiral_notepad:[Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - :spiral_notepad:[Pandas Cheatsheet](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python)
 - :spiral_notepad:[Numpy Cheatsheet](https://www.datacamp.com/cheat-sheet/numpy-cheat-sheet-data-analysis-in-python)
 - :spiral_notepad:[Matplotlib Cheatsheet](https://matplotlib.org/cheatsheets/)
 - :spiral_notepad:[PyTorch Cheatsheet](https://pytorch.org/tutorials/beginner/ptcheat.html)
-### :small_blue_diamond:Documentation
+### :file_folder:Documentation
 - :notebook:[Python Documentation `3.11.3`](https://docs.python.org/3/)
 - :notebook:[Spark Documentation `3.3.2`](https://spark.apache.org/docs/latest/)
 - :notebook:[PyTorch Documentation `2.0`](https://pytorch.org/docs/stable/index.html)
 
-### :small_blue_diamond:Resource
+### :file_folder:Resource
 #### ICON
 - :framed_picture:[UNNC ICON](./imgs/UoN_Primary_Logo_RGB.png)
 
 
 ## :large_blue_diamond:Dataset
-### :package: Airline Delay Analysis
+### :package:Airline Delay Analysis
 #### :link: Dataset Link
-- [:link: Kaggle Dataset <img src="https://www.kaggle.com/static/images/site-logo.svg" width="50">](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis)
-- [:link: BTS (Original Dataset) <img src="https://www.transtats.bts.gov/images/smalltop.gif" width="85">](https://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time)
+- [:link: <img src="https://www.kaggle.com/static/images/site-logo.svg" width="50"> Kaggle Dataset](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis)
+- [:link: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Seal_of_the_United_States_Department_of_Transportation.svg/1200px-Seal_of_the_United_States_Department_of_Transportation.svg.png" width="30"> Bureau of Transportation Statistics (Original Dataset)](https://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time)
 #### Introduction
 The datasets contain daily airline information covering from flight information, carrier company, to taxing-in, taxing-out time, and generalized delay reason of exactly 10 years, from 2009 to 2019. The DOT's database is renewed from 2018, so there might be a minor change in the column names.
 
 #### Files
 - :open_file_folder: airline delay analysis `2GB`
-  - :spiral_notepad: 20.csv `266.95MB`
+  - :spiral_notepad: 20.csv
   - :spiral_notepad: 2009.csv
   - :spiral_notepad: 2010.csv
   - :spiral_notepad: 2011.csv
@@ -139,9 +162,9 @@ The datasets contain daily airline information covering from flight information,
 
 
 ## :large_blue_diamond:Methods
-_wait for topic confirm_
+_TBD_
 ## :large_blue_diamond:Reports
-_wait for topic confirm_
+_TBD_
 
 
 <div style="padding: 1rem; border-radius: 10pt;">
