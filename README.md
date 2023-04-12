@@ -2,20 +2,20 @@
 # :large_orange_diamond:COMP4107 Big Data Coursework Group 2
 
 **:large_orange_diamond:COMP4107 Big Data Coursework**  
-&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Introduction](#large_blue_diamondintroduction)  
-&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Topic](#large_blue_diamondtopic)  
-&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Progress](#large_blue_diamondprogress)    
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;&ensp;[:hourglass:TO DO](#hourglassto-do)  
-&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Documents](#large_blue_diamonddocuments)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Coursework Specification](#file_foldercoursework-specification)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Templates](#file_foldtemplates)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Cheatsheet](#file_foldcheatsheet)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Documentation](#file_folddocumentation)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;&ensp;[:file_folder:Resource](#file_foldresource)  
-&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
-&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
-&emsp;&emsp;&#x2517;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Introduction](#large_blue_diamondintroduction)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Topic](#large_blue_diamondtopic)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Progress](#large_blue_diamondprogress)    
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:hourglass:TO DO](#hourglassto-do)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Documents](#large_blue_diamonddocuments)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:file_folder:Coursework Specification](#file_foldercoursework-specification)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:file_folder:Templates](#file_foldtemplates)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:file_folder:Cheatsheet](#file_foldcheatsheet)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:file_folder:Documentation](#file_folddocumentation)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:file_folder:Resource](#file_foldresource)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
+&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
 
 
 
@@ -27,7 +27,7 @@ The course information are:
 - COMP4107
 - UNNC 2023 Final Year Module
 
-The members of the `group 2` are:
+The members of the **`Group 2`** are:
 - :student:**Ran JI** 20217337
   :mailbox:scyrj1@nottingham.edu.cn
 - :student:**Yik LAU** 20217531
