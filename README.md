@@ -2,20 +2,20 @@
 # :large_orange_diamond:COMP4107 Big Data Coursework Group 2
 
 **:large_orange_diamond:COMP4107 Big Data Coursework**  
-&emsp;&emsp;&#x2523;[:large_blue_diamond:Introduction](#large_blue_diamondintroduction)  
-&emsp;&emsp;&#x2523;[:large_blue_diamond:Topic](#large_blue_diamondtopic)  
-&emsp;&emsp;&#x2523;[:large_blue_diamond:Progress](#large_blue_diamondprogress)    
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;[:hourglass:TO DO](#hourglassto-do)  
-&emsp;&emsp;&#x2523;[:large_blue_diamond:Documents](#large_blue_diamonddocuments)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Coursework Specification](#file_foldercoursework-specification)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Templates](#file_foldtemplates)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Cheatsheet](#file_foldcheatsheet)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;[:file_folder:Documentation](#file_folddocumentation)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;[:file_folder:Resource](#file_foldresource)  
-&emsp;&emsp;&#x2523;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
-&emsp;&emsp;&#x2523;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
-&emsp;&emsp;&#x2517;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
+&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Introduction](#large_blue_diamondintroduction)  
+&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Topic](#large_blue_diamondtopic)  
+&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Progress](#large_blue_diamondprogress)    
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;&ensp;[:hourglass:TO DO](#hourglassto-do)  
+&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Documents](#large_blue_diamonddocuments)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Coursework Specification](#file_foldercoursework-specification)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Templates](#file_foldtemplates)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Cheatsheet](#file_foldcheatsheet)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x251C;&ensp;[:file_folder:Documentation](#file_folddocumentation)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;&ensp;[:file_folder:Resource](#file_foldresource)  
+&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
+&emsp;&emsp;&#x2523;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
+&emsp;&emsp;&#x2517;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
 
 
 
@@ -59,13 +59,13 @@ gitGraph
     commit id: "Dataset Check"
 ```
 ### :hourglass:TO DO
-- [x] :white_check_mark: Topic Preparing
+- :white_check_mark: Topic Preparing
   - [x] Send Topic Choose Email
   - [x] Confirm Topic
   - [x] Collect Topic Basic Information
   - [x] Team GitHub Init
   - [x] Team Chat Group Init
-- [ ] :hourglass: Coursework Preparing
+- :hourglass: Coursework Preparing
   - [ ] Schedule Prepare
   - [ ] Environment Prepare
   - [ ] Topic Discuss
