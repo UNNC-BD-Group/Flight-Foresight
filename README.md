@@ -1,4 +1,5 @@
-![alt](./imgs/UoN_Primary_Logo_RGB.png)
+<img src="./imgs/UoN_Primary_Logo_RGB.png" width="160">&ensp;<img src="./imgs/Big_Data_Logo.png" width="80">
+
 # :large_orange_diamond:COMP4107 Big Data Coursework Group 2
 
 **:large_orange_diamond:COMP4107 Big Data Coursework**  
@@ -172,12 +173,15 @@ _TBD_
   <a href="https://www.python.org/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="30">
   </a>
+  &emsp;
   <a href="https://spark.apache.org/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" width="70">
   </a>
+  &emsp;
   <a href="https://numpy.org/">
     <img src="https://numpy.org/images/logo.svg" width="40">
   </a>
+  &emsp;
   <a href="https://www.kaggle.com/">
     <img src="https://www.kaggle.com/static/images/site-logo.svg" width="70">
   </a>
