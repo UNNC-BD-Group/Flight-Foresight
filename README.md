@@ -22,12 +22,12 @@ This coursework is supervised by:
 
 ## :large_blue_diamond:Topic
 Preference ranking:
-- :bookmark:**BD07** An Optimised Classification for Flight Status
+- :green_circle::bookmark:**BD07** An Optimised Classification for Flight Status
 - :bookmark:**BD09** Analysis the Impact of Green Infrastructure on Carbon Monoxide Reduction
 - :bookmark:**BD05** Climate Change Analysis in Brazil
 
 
-Final decision: `waiting for professor assignment`
+Final decision: :bookmark:**BD07** `An Optimised Classification for Flight Status`
 
 ## :large_blue_diamond:TO DO
 ```mermaid
@@ -36,10 +36,11 @@ gitGraph
     commit id: "Group Create"
     commit id: "Git Repository Create"
     commit id: "Topic Selection Email Sent"
+    commit id: "Topic Confirm BD 07"
 ```
 - [ ] :hourglass:Topic Preparing
   - [x] Send Topic Choose Email
-  - [ ] Confirm Topic
+  - [x] Confirm Topic
   - [ ] Collect Topic Basic Information
   - [x] Team GitHub Init
   - [x] Team Chat Group Init
