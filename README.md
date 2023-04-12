@@ -1,14 +1,15 @@
 ![alt](./imgs/UoN_Primary_Logo_RGB.png)
-# :large_orange_diamond:COMP4107 Big Data Coursework Group
+# :large_orange_diamond:COMP4107 Big Data Coursework Group 2
+
 ## :large_blue_diamond:Introduction
-This is the repository for UNNC Big Data Coursework Group `(COMP4107)`.
+This is the repository for UNNC Big Data Coursework Group 2`(COMP4107)`.
 
 The course information are:
 - **Big Data**
 - COMP4107
 - UNNC 2023 Final Year Module
 
-The members of this group are:
+The members of the `group 2` are:
 - :student:**Ran JI** 20217337
   :mailbox:scyrj1@nottingham.edu.cn
 - :student:**Yik LAU** 20217531
@@ -75,7 +76,62 @@ Related Document: :file_folder:[IEEEtran_HOWTO.pdf](./docs/Templates/IEEEtran_HO
 
 
 ## :large_blue_diamond:Dataset
-_wait for topic confirm_
+### :package: Airline Delay Analysis
+#### :link: Dataset Link
+- [:link: Kaggle Dataset <img src="https://www.kaggle.com/static/images/site-logo.svg" width="50">](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis)
+- [:link: BTS (Original Dataset) <img src="https://www.transtats.bts.gov/images/smalltop.gif" width="85">](https://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time)
+#### Introduction
+The datasets contain daily airline information covering from flight information, carrier company, to taxing-in, taxing-out time, and generalized delay reason of exactly 10 years, from 2009 to 2019. The DOT's database is renewed from 2018, so there might be a minor change in the column names.
+
+#### Files
+- :open_file_folder: airline delay analysis `2GB`
+  - :spiral_notepad: 20.csv `266.95MB`
+  - :spiral_notepad: 2009.csv
+  - :spiral_notepad: 2010.csv
+  - :spiral_notepad: 2011.csv
+  - :spiral_notepad: 2012.csv
+  - :spiral_notepad: 2013.csv
+  - :spiral_notepad: 2014.csv
+  - :spiral_notepad: 2015.csv
+  - :spiral_notepad: 2016.csv
+  - :spiral_notepad: 2017.csv
+  - :spiral_notepad: 2018.csv
+  - :spiral_notepad: 2019.csv
+#### Dataset Schema
+|Column|Table Token      |Type                |Description|
+|:----:|:----------------|:-------------------|:----------|
+|1     |FL_DATE          |`Date` (YYYY-MM-DD) |Flight Date |
+|2     |OP_CARRIER       |`String`            |Unique Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2). Use this field for analysis across a range of years. |
+|3     |OP_CARRIER_FL_NUM|`Integer`           |An identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation.|
+|4     |ORIGIN           |`String`            |Origin Airport|
+|5     |DEST             |`String`            |Destination Airport|
+|6     |CRS_DEP_TIME     |`Integer` (hhmm)    |CRS Departure Time (local time: hhmm) |
+|7     |DEP_TIME         |`Float`             |Actual Departure Time (local time: hhmm)|
+|8     |DEP_DELAY        |`Float`             |Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.|
+|9     |TAXI_OUT         |`Integer` (hhmm)    |Taxi Out Time, in Minutes|
+|10    |WHEELS_OFF       |`Integer` (hhmm)    |Wheels Off Time (local time: hhmm)|
+|11    |WHEELS_ON        |`Float`             |Wheels On Time (local time: hhmm)|
+|12    |TAXI_IN          |`Integer` (hhmm)    |Taxi In Time, in Minutes|
+|13    |CRS_ARR_TIME     |`Float`             |CRS Arrival Time (local time: hhmm)|
+|14    |ARR_TIME         |`Float`             |Actual Arrival Time (local time: hhmm)|
+|15    |ARR_DELAY        |`Float`             |Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.|
+|16    |CANCELLED        |`Integer` (0,1)     |Cancelled Flight Indicator (1=Yes)|
+|17    |CANCELLATION_CODE|`Char` (A,B,C,D)    |Specifies The Reason For Cancellation, A:Carrier, B:Weather, C:National Air System, D:Security|
+|18    |DIVERTED         |`Integer` (0,1)     |Diverted Flight Indicator (1=Yes)|
+|19    |CRS_ELAPSED_TIME |`Float`             |CRS Elapsed Time of Flight, in Minutes|
+|20    |ACTUAL_ELAPSED_TIME|`Float`             |Elapsed Time of Flight, in Minutes|
+|21    |AIR_TIME         |`Float`             |Flight Time, in Minutes|
+|22    |DISTANCE         |`Float`             |Distance between airports (miles)|
+|23    |CARRIER_DELAY    |`Float`             |Carrier Delay, in Minutes|
+|24    |WEATHER_DELAY    |`Float`             |Weather Delay, in Minutes|
+|25    |NAS_DELAY        |`Float`             |National Air System Delay, in Minutes|
+|26    |SECURITY_DELAY   |`Float`             |Security Delay, in Minutes|
+|27    |LATE_AIRCRAFT_DELAY|`Float`             |Late Aircraft Delay, in Minutes|
+
+#### Related Datasheet
+- Airport Code Explanation: `CSV` [:spiral_notepad: L_AIRPORT.csv](./datasets/L_AIRPORT.csv)
+
+
 ## :large_blue_diamond:Methods
 _wait for topic confirm_
 ## :large_blue_diamond:Reports
