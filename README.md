@@ -16,8 +16,8 @@
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
-&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
-
+&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports) 
+&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:spiral_notepad:literature-review](#spiral_notepadliterature-review) 
 
 
 ## :large_blue_diamond:Introduction
@@ -166,7 +166,24 @@ The datasets contain daily airline information covering from flight information,
 ## :large_blue_diamond:Methods
 _TBD_
 ## :large_blue_diamond:Reports
-_TBD_
+### :spiral_notepad:Literature Review
+#### References
+- [**`2016`** Prediction of Weather-induced Airline Delays Based on Machine Learning Algorithms](./docs/Papers/Choi2016Prediction.pdf)
+  - Publisher: 2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC)
+  - DOI: [10.1109/DASC.2016.7777956](http://dx.doi.org/10.1109/DASC.2016.7777956)
+  - BibTex
+    ```
+    @inproceedings{choi2016prediction,
+      title={Prediction of weather-induced airline delays based on machine learning algorithms},
+      author={Choi, Sun and Kim, Young Jin and Briceno, Simon and Mavris, Dimitri},
+      booktitle={2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC)},
+      pages={1--6},
+      year={2016},
+      organization={IEEE}
+    }
+    ```
+
+
 
 
 <div style="padding: 1rem; border-radius: 10pt;">
