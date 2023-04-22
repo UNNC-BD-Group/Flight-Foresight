@@ -31,7 +31,7 @@ The course information are:
 The members of the **`Group 2`** are:
 - :student:**Ran JI** 20217337
   :mailbox:scyrj1@nottingham.edu.cn
-- :student:**Yik LAU** 20217531
+- :student:**Yik Lun Yelan LAU** 20217531
   :mailbox:scyyl18@nottingham.edu.cn
 - :student:**Jiarui LI** 20216422 `Group Leader`
   :mailbox:scyjl6@nottingham.edu.cn
