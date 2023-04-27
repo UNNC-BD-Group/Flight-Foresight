@@ -16,7 +16,7 @@
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
-&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports) 
+&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:spiral_notepad:literature-review](#spiral_notepadliterature-review) 
 
 
@@ -67,9 +67,9 @@ gitGraph
   - [x] Team GitHub Init
   - [x] Team Chat Group Init
 - :hourglass: Coursework Preparing
-  - [ ] Schedule Prepare
-  - [ ] Environment Prepare
-  - [ ] Topic Discuss
+  - [x] Schedule Prepare
+  - [x] Environment Prepare
+  - [x] Topic Discuss
 
 ## :large_blue_diamond:Documents
 ### :file_folder:Coursework Specification
