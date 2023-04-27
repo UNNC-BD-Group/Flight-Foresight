@@ -9,18 +9,23 @@ from datetime import datetime
 
 class Dataset:
     
-    def __init__(self, path='', spark_master='local', echo=True, spark_frame=None):
+    def __init__(self, path='', spark_master='local', echo=True, spark_frame=None, spark_handle=None):
         self.echo = echo
         
         if spark_frame is None:
-            self._load_spark(spark_master)
+            if spark_handle is None:
+                self._load_spark(spark_master)
+            else:
+                self._spark_handle = spark_handle
+                self._spark_master = 'Sub'
+                self._spark_app_name = 'Sub'
             self._load_data(path)
         else:
             self._spark_master = 'Sub'
             self._spark_app_name = 'Sub'
             self._spark_data_frame = spark_frame
             self.path = ''
-            
+            self._spark_handle = spark_handle
             
     def _load_spark(self, master='local'):
         if self.echo:
@@ -95,14 +100,31 @@ class Dataset:
             return self._spark_data_frame.toPandas()
         return None
     
+    def save(self, path='./', encoding='utf-8'):
+        self._spark_data_frame.repartition(1).write.csv(path,
+                                                        encoding=encoding,
+                                                        header=True)
+    
 class AirDelayDataset(Dataset):
+    
+    def __init__(self, path='', spark_master='local',
+                 echo=True, spark_frame=None, spark_handle=None,
+                 airport_data_path='./', carrier_data_path='./'):
+        
+        super().__init__(path, spark_master, echo, spark_frame, spark_handle)
+        self.airposrt_data_path = airport_data_path
+        self.carrier_data_path = carrier_data_path
     
     def get_date_period(self, start='2009-01-01', end='2009-01-02'):
         return AirDelayDataset(
             spark_frame = self._spark_data_frame.filter(
             self._spark_data_frame['FL_DATE'] >= start).filter(
                 self._spark_data_frame['FL_DATE'] < end
-            ))
+                ),
+            airport_data_path=self.airposrt_data_path,
+            carrier_data_path=self.carrier_data_path,
+            spark_handle = self._spark_handle
+        )
     
     def get_delay(self, delay_time_range=(0, 10), type='arrival'):
         '''
@@ -116,11 +138,21 @@ class AirDelayDataset(Dataset):
             key = 'ARR_DELAY'
                                   
         return AirDelayDataset(
-            spark_frame = self._spark_data_frame.filter(
-            self._spark_data_frame[key] >= delay_time_range[0]).filter(
-                self._spark_data_frame[key] < delay_time_range[1]
-        ))
-        
+                spark_frame = self._spark_data_frame.filter(
+                self._spark_data_frame[key] >= delay_time_range[0]).filter(
+                    self._spark_data_frame[key] < delay_time_range[1]
+            ),
+            airport_data_path=self.airposrt_data_path,
+            carrier_data_path=self.carrier_data_path,
+            spark_handle=self._spark_handle
+        )
+    
+    def get_arrival_delay(self, delay_time_range=(0, 10)):
+        return self.get_delay(delay_time_range, 'arrival')
+    
+    def get_arrival_delay(self, delay_time_range=(0, 10)):
+        return self.get_delay(delay_time_range, 'departure')
+    
     def get_ports(self, ports=[], type='origin'):
         '''
         type = 'origin' | 'dest'
@@ -141,7 +173,16 @@ class AirDelayDataset(Dataset):
                 frame = frame_
             else:
                 frame.unionByName(frame_, allowMissingColumns=True)
-        return AirDelayDataset(spark_frame = frame)
+        return AirDelayDataset(spark_frame = frame,
+                                airport_data_path=self.airposrt_data_path,
+                                carrier_data_path=self.carrier_data_path,
+                                spark_handle=self._spark_handle)
+    
+    def get_origin_ports(self, ports=[]):
+        return self.get_ports(ports, 'origin')
+    
+    def get_dest_ports(self, ports=[]):
+        return self.get_ports(ports, 'dest')
     
     def get_cancelled(self, code=None):
         '''
@@ -153,16 +194,23 @@ class AirDelayDataset(Dataset):
         if code is not None:
             frame = frame.filter(self._spark_data_frame['CANCELLATION_CODE'] == code)
         return AirDelayDataset(
-            spark_frame = frame
+            spark_frame = frame,
+            airport_data_path=self.airposrt_data_path,
+            carrier_data_path=self.carrier_data_path,
+            spark_handle=self._spark_handle
         )
         
     def get_distance(self, distance=(0, 500)):
         
         return AirDelayDataset(
-            spark_frame = self._spark_data_frame.filter(
-            self._spark_data_frame['DISTANCE'] >= distance[0]).filter(
-                self._spark_data_frame['DISTANCE'] < distance[1]
-        ))
+                spark_frame = self._spark_data_frame.filter(
+                self._spark_data_frame['DISTANCE'] >= distance[0]).filter(
+                    self._spark_data_frame['DISTANCE'] < distance[1]
+            ),
+            airport_data_path=self.airposrt_data_path,
+            carrier_data_path=self.carrier_data_path,
+            spark_handle=self._spark_handle
+        )
         
     def get_time_period(self, period=(0000, 2400), item='departure'):
         '''
@@ -192,4 +240,45 @@ class AirDelayDataset(Dataset):
             spark_frame = self._spark_data_frame.filter(
             self._spark_data_frame[item] >= period[0]).filter(
                 self._spark_data_frame[item] < period[1]
-            ))
+            ),
+            airport_data_path=self.airposrt_data_path,
+            carrier_data_path=self.carrier_data_path,
+            spark_handle=self._spark_handle
+        )
+    
+    def get_departure_time(self, period=(0000, 2400)):
+        return self.get_time_period(period, 'departure')
+    
+    def get_arrival_time(self, period=(0000, 2400)):
+        return self.get_time_period(period, 'arrival')
+    
+    def get_wheels_on_time(self, period=(0000, 2400)):
+        return self.get_time_period(period, 'wheels_on')
+    
+    def get_wheels_off_time(self, period=(0000, 2400)):
+        return self.get_time_period(period, 'wheels_off')
+    
+    def get_taxi_out_time(self, period=(0000, 2400)):
+        return self.get_time_period(period, 'taxi_out')
+    
+    def get_taxi_in_time(self, period=(0000, 2400)):
+        return self.get_time_period(period, 'taxi_in')
+    
+    def attach_airport_info(self):
+        frame = self._spark_handle.read.option("header", True).option("inferSchema", True).csv(self.airposrt_data_path)
+        frame = frame.select(['iata_code', 'latitude_deg', 'longitude_deg', 'iso_region'])
+        frame = frame.withColumnRenamed('iata_code', 'ORIGIN')
+        frame = frame.withColumnRenamed('latitude_deg', 'ORIGIN_LAT')
+        frame = frame.withColumnRenamed('longitude_deg', 'ORIGIN_LON')
+        frame = frame.withColumnRenamed('iso_region', 'ORIGIN_REGION')
+        data = self.dataframe(type='spark').join(frame, on='ORIGIN', how='left_outer')
+        frame = frame.withColumnRenamed('ORIGIN', 'DEST')
+        frame = frame.withColumnRenamed('ORIGIN_LAT', 'DEST_LAT')
+        frame = frame.withColumnRenamed('ORIGIN_LON', 'DEST_LON')
+        frame = frame.withColumnRenamed('ORIGIN_REGION', 'DEST_REGION')
+        data = self.dataframe(type='spark').join(data, on='DEST', how='left_outer')
+        return AirDelayDataset(spark_frame = data,
+                               airport_data_path=self.airposrt_data_path,
+                               carrier_data_path=self.carrier_data_path,
+                               spark_handle=self._spark_handle
+                )
