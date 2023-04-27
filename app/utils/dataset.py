@@ -102,8 +102,7 @@ class AirDelayDataset(Dataset):
             spark_frame = self._spark_data_frame.filter(
             self._spark_data_frame['FL_DATE'] >= start).filter(
                 self._spark_data_frame['FL_DATE'] < end
-            )
-            )
+            ))
     
     def get_delay(self, delay_time_range=(0, 10), type='arrival'):
         '''
@@ -118,7 +117,8 @@ class AirDelayDataset(Dataset):
                                   
         return AirDelayDataset(
             spark_frame = self._spark_data_frame.filter(
-            self._spark_data_frame[key] >= delay_time_range[0] & self._spark_data_frame[key] < delay_time_range[1]
+            self._spark_data_frame[key] >= delay_time_range[0]).filter(
+                self._spark_data_frame[key] < delay_time_range[1]
         ))
         
     def get_ports(self, ports=[], type='origin'):
@@ -160,7 +160,8 @@ class AirDelayDataset(Dataset):
         
         return AirDelayDataset(
             spark_frame = self._spark_data_frame.filter(
-            self._spark_data_frame['DISTANCE'] >= distance[0] & self._spark_data_frame['DISTANCE'] < distance[1]
+            self._spark_data_frame['DISTANCE'] >= distance[0]).filter(
+                self._spark_data_frame['DISTANCE'] < distance[1]
         ))
         
     def get_time_period(self, period=(0000, 2400), item='departure'):
@@ -189,5 +190,6 @@ class AirDelayDataset(Dataset):
             
         return AirDelayDataset(
             spark_frame = self._spark_data_frame.filter(
-            self._spark_data_frame[item] >= period[0] & self._spark_data_frame[item] < period[1]
-        ))
+            self._spark_data_frame[item] >= period[0]).filter(
+                self._spark_data_frame[item] < period[1]
+            ))
