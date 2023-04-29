@@ -295,3 +295,10 @@ class AirDelayDataset(Dataset):
     
     def count_airline(self):
         return self._spark_data_frame.groupBy(['ORIGIN', 'DEST']).count().orderBy('count', ascending=False).toPandas()
+    
+    def createTempTable(self):
+        self._spark_data_frame.createOrReplaceTempView("flightdata")
+        return self._spark_handle.sql("SHOW TABLES")
+    
+    def sql(self, sql):
+        return self._spark_handle.sql(sql)
