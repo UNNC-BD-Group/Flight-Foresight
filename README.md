@@ -180,6 +180,9 @@ The datasets contain daily airline information covering from flight information,
   |LinearRegression|9.4382|0.9432|14.5720|0.9144|
   |RandomForest|17.4475|0.8058|29.1984|0.6562|
 
+
+  ![alt](docs/Reports/Perf-20230503/img/Method-Compare-RMSE.png)
+
 ## :large_blue_diamond:Codes
 
 ### :package: Pre-requisite
