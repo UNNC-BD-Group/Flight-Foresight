@@ -169,8 +169,10 @@ The datasets contain daily airline information covering from flight information,
 
 
 ## :large_blue_diamond:Methods
-- [Dataset Analysis Report]()
-- [Model Performance Report](./docs/Reports/Perf-20230503.md)
+- [Dataset Analysis Report](./docs/Reports/Dataset-General/Dataset-General.md)
+  - **Total**: 68,979,001
+  - **Trainset**: 121,513
+- [Model Performance Report](./docs/Reports/Perf-20230503/Perf-20230503.md)
   |Model|Train RMSE|Train $R^2$|Test RMSE|Test $R^2$|
   |:--|:---|:---|:---|:---|
   |DecisionTree|17.9888|0.7935|30.2331|0.6314|
