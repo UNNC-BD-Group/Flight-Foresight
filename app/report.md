@@ -6,9 +6,6 @@
 |GuassionRegression|9.4382|0.9432|14.5720|0.9144|
 |LinearRegression|9.4382|0.9432|14.5720|0.9144|
 |RandomForest|17.4475|0.8058|29.1984|0.6562|
-
-
-![alt](img/Method-Compare-RMSE.png)
 ## Models
 ### DecisionTree
 #### K-Folds

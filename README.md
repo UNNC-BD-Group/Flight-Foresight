@@ -169,6 +169,7 @@ The datasets contain daily airline information covering from flight information,
 
 
 ## :large_blue_diamond:Methods
+![alt](imgs/blockdiagram.png)
 - [Dataset Analysis Report](./docs/Reports/Dataset-General/Dataset-General.md)
   - **Total**: 68,979,001
   - **Trainset**: 121,513
