@@ -18,7 +18,7 @@
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Codes](#large_blue_diamondcodes)  
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Pre-requisite](#package-pre-requisite)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages) 
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages)  
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Tasks](#package-tasks)  
 &emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:spiral_notepad:literature-review](#spiral_notepadliterature-review)  
@@ -165,6 +165,7 @@ The datasets contain daily airline information covering from flight information,
 #### Related Datasheet
 - Airport Code Lookup Table: `CSV` [:spiral_notepad: L_AIRPORT.csv](./datasets/L_AIRPORT.csv)
 - Airline Carriers Code Lookup Table: `CSV` [:spiral_notepad: L_UNIQUE_CARRIERS.csv](./datasets/L_UNIQUE_CARRIERS.csv)
+- Airport Coordinator And Location Lookup Table: `CSV` [:spiral_notepad: AIRPORTS_INFO.csv](./datasets/AIRPORTS_INFO.csv)
 
 
 ## :large_blue_diamond:Methods
