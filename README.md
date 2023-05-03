@@ -164,7 +164,15 @@ The datasets contain daily airline information covering from flight information,
 
 
 ## :large_blue_diamond:Methods
-_TBD_
+- [Dataset Analysis Report]()
+- [Model Performance Report](./docs/Reports/Perf-20230503.md)
+  |Model|Train RMSE|Train $R^2$|Test RMSE|Test $R^2$|
+  |:--|:---|:---|:---|:---|
+  |DecisionTree|17.9888|0.7935|30.2331|0.6314|
+  |GuassionRegression|9.4382|0.9432|14.5720|0.9144|
+  |LinearRegression|9.4382|0.9432|14.5720|0.9144|
+  |RandomForest|17.4475|0.8058|29.1984|0.6562|
+
 ## :large_blue_diamond:Reports
 ### :spiral_notepad:Literature Review
 #### References

@@ -106,7 +106,77 @@ class Dataset:
     
     def save(self, path='./', encoding='utf-8'):
         self.dataframe('pandas').to_csv(path, sep=',', header=True, encoding=encoding)
+
+
+class DatasetStack:
+    def __init__(self, spark_master='local', echo=True, airport_info_path='./'):
+        self.echo = echo
+        self._load_spark(spark_master)
+        self.datasets = {}
+        self.airport_info_path = airport_info_path
+        
+    def __list__(self):
+        return list(self.datasets.keys())
     
+    def __getitem__(self, key):
+        return self.datasets[key]
+    
+    def load(self, path, name):
+        self.path = path
+        if self.echo:
+            print('Load datasets from {}'.format(path))
+        frames = []
+        
+        if not os.path.isfile(path):
+            for root, _, files in os.walk(path):
+                enumerator = enumerate(files)
+                if self.echo:
+                    enumerator = tqdm(enumerator)
+                for i, file in enumerator:
+                    if '.csv' in file:
+                        if self.echo:
+                            enumerator.set_description('Loading {}'.format(file))
+                        frame = self._spark_handle.read.option("header", True).option("inferSchema", True).csv(os.path.join(root, file))
+                        frames.append(frame)
+            if self.echo:
+                print('Merging Frames...')
+            if len(frames) > 0:
+                _spark_data_frame = frames[0]
+                for i in range(1, len(frames)):
+                    _spark_data_frame = _spark_data_frame.unionByName(frames[i], allowMissingColumns=True)
+            else:
+                _spark_data_frame = self._spark_handle.createDataFrame([])
+            self.datasets[name] = AirDelayDataset(spark_frame=_spark_data_frame,
+                                          spark_handle=self._spark_handle,
+                                          spark_master='sub',
+                                          airport_data_path=self.airport_info_path).attach_airport_info()
+        
+        else:
+            _spark_data_frame = self._spark_handle.read.option("header", True).option("inferSchema", True).csv(path)
+            self.datasets[name] = AirDelayDataset(spark_frame=_spark_data_frame,
+                                          spark_handle=self._spark_handle,
+                                          spark_master='sub',
+                                          airport_data_path=self.airport_info_path).attach_airport_info()
+            
+        if self.echo:
+            print(self.datasets[name].status())
+        
+    
+    def __len__(self):
+        return len(self.datasets)
+        
+    def _load_spark(self, master='local'):
+        if self.echo:
+            print('Initializing Spark...')
+        self._spark_master = master
+        self._spark_app_name = str(uuid.uuid4())
+        conf = SparkConf().setMaster(master).setAppName(self._spark_app_name)
+        sc = SparkContext(conf = conf)
+        self._spark_handle = SparkSession(sc)
+        if self.echo:
+            print('Spark stand by (Master={}, AppName={})'.format(self._spark_master, self._spark_app_name))
+        return self._spark_app_name
+        
 class AirDelayDataset(Dataset):
     
     def __init__(self, path='', spark_master='local',
