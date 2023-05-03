@@ -16,6 +16,10 @@
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Dataset](#large_blue_diamonddataset)  
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
+&emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Codes](#large_blue_diamondcodes)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Pre-requisite](#package-pre-requisite)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages) 
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Tasks](#package-tasks)  
 &emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:spiral_notepad:literature-review](#spiral_notepadliterature-review)  
 
@@ -173,6 +177,28 @@ The datasets contain daily airline information covering from flight information,
   |LinearRegression|9.4382|0.9432|14.5720|0.9144|
   |RandomForest|17.4475|0.8058|29.1984|0.6562|
 
+## :large_blue_diamond:Codes
+
+### :package: Pre-requisite
+|Level|Package|Version|`CSLINUX` Support|Comment|
+|:---:|:------|:------|:---------------:|:------|
+|`BASIC`|PySpark|`3.0.1`|:white_check_mark:|Spark support for Python|
+|`BASIC`|Pandas|`1.1.3`|:white_check_mark:|Data processing package|
+|`BASIC`|NumPy|`1.19.2`|:white_check_mark:|Basic computation package|
+|`BASIC`|tqdm|`4.50.2`|:white_check_mark:|Progress demonstration|
+|`VISUAL`|StreamLit|`1.21.0`|:exclamation:|Web Client built|
+|`VISUAL`|Plotly|`5.14.1`|:exclamation:|Graph draw|
+
+
+### :package: Packages
+
+### :package: Tasks
+- [00_sample_dataset.py](./app/00_sample_dataset.py) Randomly sample dataset from the main dataset.
+- [01_DecisionTree.py](./app/01_DecisionTree.py) Spark implemented Decision Tree with K-Folds tunning and test set evaluation.
+- [01_RandomForest.py](./app/01_RandomForest.py) Spark implemented Random Forest with K-Folds tunning and test set evaluation.
+- [01_GrediantBoost.py](./app/01_GrediantBoost.py) Spark implemented Grediant Boost with K-Folds tunning and test set evaluation.
+- [01_GuassianRegression.py](./app/01_GuassianRegression.py) Spark implemented Gaussian Regression with K-Folds tunning and test set evaluation.
+- [01_LinearRegression.py](./app/01_LinearRegression.py) Spark implemented Linear Regression with K-Folds tunning and test set evaluation.
 ## :large_blue_diamond:Reports
 ### :spiral_notepad:Literature Review
 #### References
