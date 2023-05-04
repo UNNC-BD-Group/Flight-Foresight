@@ -208,6 +208,21 @@ The datasets contain daily airline information covering from flight information,
 - [01_GrediantBoost.py](./app/01_GrediantBoost.py) Spark implemented Grediant Boost with K-Folds tunning and test set evaluation.
 - [01_GuassianRegression.py](./app/01_GuassianRegression.py) Spark implemented Gaussian Regression with K-Folds tunning and test set evaluation.
 - [01_LinearRegression.py](./app/01_LinearRegression.py) Spark implemented Linear Regression with K-Folds tunning and test set evaluation.
+
+### :package: Flight foresight
+The visualization application for airline delay prediction
+
+
+![alt](app/bar-img.png)
+
+
+It requires all packages including `BASIC` and `VISUAL`.
+To run the app, please run the commands below:
+```bash
+cd app
+streamlit run flight_foresight.py
+```
+
 ## :large_blue_diamond:Reports
 ### :spiral_notepad:Literature Review
 #### References

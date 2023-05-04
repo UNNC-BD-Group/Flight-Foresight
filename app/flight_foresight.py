@@ -102,10 +102,11 @@ for line in flight_list:
     flight_num_list.append(flight_num)
     lines += ('|🛬**{}**|`{}`|{}|{}|\n'.format(flight_num, line[2], arr, arr_status))
     
-status_bar = cols[0].columns(3)
+status_bar = cols[0].columns(4)
 status_bar[0].metric('Total', '{}'.format(delay_count+ahead_count+onplan_count))
 status_bar[1].metric(':red[Delay]', '{}'.format(delay_count))
 status_bar[2].metric(':blue[Ahead]', '{}'.format(ahead_count))
+status_bar[3].metric(':green[OnPlan]', '{}'.format(onplan_count))
 cols[0].markdown(lines)
 
 flight_num = cols[1].selectbox('Flight', flight_num_list)
