@@ -223,6 +223,8 @@ cd app
 streamlit run flight_foresight.py
 ```
 
+![alt](imgs/flight-foresight-screenshot.png)
+
 ## :large_blue_diamond:Reports
 ### :spiral_notepad:Literature Review
 #### References
