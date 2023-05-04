@@ -169,7 +169,7 @@ The datasets contain daily airline information covering from flight information,
 
 
 ## :large_blue_diamond:Methods
-![alt](imgs/blockdiagram.png)
+![alt](./imgs/blockdiagram.png)
 - [Dataset Analysis Report](./docs/Reports/Dataset-General/Dataset-General.md)
   - **Total**: 68,979,001
   - **Trainset**: 121,513
@@ -181,6 +181,7 @@ The datasets contain daily airline information covering from flight information,
   |GuassionRegression|9.4382|0.9432|14.5720|0.9144|
   |LinearRegression|9.4382|0.9432|14.5720|0.9144|
   |RandomForest|17.4475|0.8058|29.1984|0.6562|
+  |GrediantBoost|18.9884|0.7700|27.4730|0.6956|
 
 
   ![alt](docs/Reports/Perf-20230503/img/Method-Compare-RMSE.png)
