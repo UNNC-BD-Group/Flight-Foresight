@@ -62,6 +62,11 @@ gitGraph
     commit id: "Topic Selection Email Sent"
     commit id: "Topic Confirm BD 07"
     commit id: "Dataset Check"
+    commit id: "Literature Review"
+    commit id: "Code Preparing"
+    commit id: "Method Evaluation"
+    commit id: "Report Writing"
+    commit id: "Presentation Preparing"
 ```
 ### :hourglass:TO DO
 - :white_check_mark: Topic Preparing
@@ -70,10 +75,26 @@ gitGraph
   - [x] Collect Topic Basic Information
   - [x] Team GitHub Init
   - [x] Team Chat Group Init
-- :hourglass: Coursework Preparing
+- :white_check_mark: Coursework Preparing
   - [x] Schedule Prepare
   - [x] Environment Prepare
   - [x] Topic Discuss
+- :white_check_mark: Coding and Project
+  - [x] Prepare basic lib
+  - [x] Implement different models
+  - [x] Evaluate the models
+  - [x] Draw graphs
+  - [x] Prepare visulization client
+- :white_check_mark: Report Writing
+  - [x] Literature Review
+  - [x] Introduction
+  - [x] Methods
+  - [x] Conclusion
+  - [x] Integration
+- :hourglass: Presentation
+  - [x] Slides preparing
+  - [ ] Practice
+  - [ ] Final Presentation
 
 ## :large_blue_diamond:Documents
 ### :file_folder:Coursework Specification
