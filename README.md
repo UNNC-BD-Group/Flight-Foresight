@@ -166,6 +166,7 @@ The datasets contain daily airline information covering from flight information,
 - Airport Code Lookup Table: `CSV` [:spiral_notepad: L_AIRPORT.csv](./datasets/L_AIRPORT.csv)
 - Airline Carriers Code Lookup Table: `CSV` [:spiral_notepad: L_UNIQUE_CARRIERS.csv](./datasets/L_UNIQUE_CARRIERS.csv)
 - Airport Coordinator And Location Lookup Table: `CSV` [:spiral_notepad: AIRPORTS_INFO.csv](./datasets/AIRPORTS_INFO.csv)
+  The `iata_code` can be mapped to the `DEST` and `ORIGIN` columns in the main dataset to figure out the full information of the airport.
 
 
 ## :large_blue_diamond:Methods
@@ -200,16 +201,60 @@ The datasets contain daily airline information covering from flight information,
 
 
 ### :package: Packages
+- :package: `airdelay_plot` Air Delay Plot
+  - :open_file_folder:`bar`
+    - :gear:`method_compare`
+      Draw the bar chart of the method comparison
+  - :open_file_folder:`map`
+    - :gear:`heatmap`
+      Draw the original/destination airport distribution on the map from the provided dataset.
+    - :gear:`linemap`
+      Draw the flight lines on the map from the provided dataset
+- :package: `compute` Compute Model
+  - :open_file_folder: `feature`
+    - :gear: `regular_feature`
+      Regular and reshape the features for the continuous prediction (Data Preprocessing).
+  - :open_file_folder: `regressor`
+    - :package: `RegressionModel`
+      Provide the wrap class for spark mlib algorithm implementing K-Folds, train, test, and predict function.
+- :package: `dataset` Dataset Model
+  - :package: `Dataset`
+    General dataset model based on spark SQL
+  - :package: `AirDelayDataset`
+    Inherit from :package:`Dataset`, provide Airline Delay specified functions such as get data according to such as the period, cancel status, and whether delayed.
+  
 
 ### :package: Tasks
-- [00_sample_dataset.py](./app/00_sample_dataset.py) Randomly sample dataset from the main dataset.
-- [01_DecisionTree.py](./app/01_DecisionTree.py) Spark implemented Decision Tree with K-Folds tunning and test set evaluation.
-- [01_RandomForest.py](./app/01_RandomForest.py) Spark implemented Random Forest with K-Folds tunning and test set evaluation.
-- [01_GrediantBoost.py](./app/01_GrediantBoost.py) Spark implemented Grediant Boost with K-Folds tunning and test set evaluation.
-- [01_GuassianRegression.py](./app/01_GuassianRegression.py) Spark implemented Gaussian Regression with K-Folds tunning and test set evaluation.
-- [01_LinearRegression.py](./app/01_LinearRegression.py) Spark implemented Linear Regression with K-Folds tunning and test set evaluation.
+**Execution commands:**
+```bash
+  cd ./app
+  python {task-name}.py
+```
+Please make sure the dataset set has been stored to :open_file_folder:`./datasets/app-dataset/full` and Airport Information has been stored to :open_file_folder:`./datasets/AIRPORTS_INFO.csv`.
+And the folder :open_file_folder:`./models` has been created for log storage.  
+**Task List**:
+- [00_sample_dataset.py](./app/00_sample_dataset.py)
+  Randomly sample dataset from the main dataset. 
+  :white_check_mark:**`CSLINUX Support`**
+- [01_DecisionTree.py](./app/01_DecisionTree.py) 
+  Spark implemented Decision Tree with K-Folds tunning and test set evaluation.
+  :white_check_mark:**`CSLINUX Support`**
+- [01_RandomForest.py](./app/01_RandomForest.py) 
+  Spark implemented Random Forest with K-Folds tunning and test set evaluation.
+  :white_check_mark:**`CSLINUX Support`**
+- [01_GrediantBoost.py](./app/01_GrediantBoost.py)
+  Spark implemented Grediant Boost with K-Folds tunning and test set evaluation.
+  :white_check_mark:**`CSLINUX Support`**
+- [01_GuassianRegression.py](./app/01_GuassianRegression.py)
+  Spark implemented Gaussian Regression with K-Folds tunning and test set evaluation.
+  :white_check_mark:**`CSLINUX Support`**
+- [01_LinearRegression.py](./app/01_LinearRegression.py)
+  Spark implemented Linear Regression with K-Folds tunning and test set evaluation.
+  :white_check_mark:**`CSLINUX Support`**
 
 ### :package: Flight foresight
+
+:exclamation:**`CSLINUX NOT Support`**  
 The visualization application for airline delay prediction
 
 
