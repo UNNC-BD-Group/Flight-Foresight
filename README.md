@@ -1,6 +1,26 @@
 <img src="./imgs/UoN_Primary_Logo_RGB.png" width="160">&ensp;<img src="./imgs/Big_Data_Logo.png" width="80">
 
 # :large_orange_diamond:COMP4107 Big Data Coursework Group 2
+<div style="padding: 1rem; border-radius: 10pt;">
+  <a href="https://www.python.org/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="30">
+  </a>
+  &emsp;
+  <a href="https://spark.apache.org/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" width="70">
+  </a>
+  &emsp;
+  <a href="https://numpy.org/">
+    <img src="https://numpy.org/images/logo.svg" width="40">
+  </a>
+  &emsp;
+  <a href="https://www.kaggle.com/">
+    <img src="https://www.kaggle.com/static/images/site-logo.svg" width="70">
+  </a>
+  <a href="https://streamlit.io/">
+    <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" width="130">
+  </a>
+</div>
 
 **:large_orange_diamond:COMP4107 Big Data Coursework**  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Introduction](#large_blue_diamondintroduction)  
@@ -314,24 +334,3 @@ streamlit run flight_foresight.py
       organization={IEEE}
     }
     ```
-
-
-
-
-<div style="padding: 1rem; border-radius: 10pt;">
-  <a href="https://www.python.org/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="30">
-  </a>
-  &emsp;
-  <a href="https://spark.apache.org/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" width="70">
-  </a>
-  &emsp;
-  <a href="https://numpy.org/">
-    <img src="https://numpy.org/images/logo.svg" width="40">
-  </a>
-  &emsp;
-  <a href="https://www.kaggle.com/">
-    <img src="https://www.kaggle.com/static/images/site-logo.svg" width="70">
-  </a>
-</div>
