@@ -37,11 +37,9 @@
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Codes](#large_blue_diamondcodes)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Pre-requisite](#package-pre-requisite)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages)  
-&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Tasks](#package-tasks)  
-&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Reports](#large_blue_diamondreports)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:spiral_notepad:literature-review](#spiral_notepadliterature-review)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Pre-requisite](#package-pre-requisite)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Tasks](#package-tasks)  
 
 
 ## :large_blue_diamond:Introduction
@@ -316,21 +314,3 @@ streamlit run flight_foresight.py
 ```
 
 ![alt](imgs/flight-foresight-screenshot.png)
-
-## :large_blue_diamond:Reports
-### :spiral_notepad:Literature Review
-#### References
-- [**`2016`** Prediction of Weather-induced Airline Delays Based on Machine Learning Algorithms](./docs/Papers/Choi2016Prediction.pdf)
-  - Publisher: 2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC)
-  - DOI: [10.1109/DASC.2016.7777956](http://dx.doi.org/10.1109/DASC.2016.7777956)
-  - BibTex
-    ```
-    @inproceedings{choi2016prediction,
-      title={Prediction of weather-induced airline delays based on machine learning algorithms},
-      author={Choi, Sun and Kim, Young Jin and Briceno, Simon and Mavris, Dimitri},
-      booktitle={2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC)},
-      pages={1--6},
-      year={2016},
-      organization={IEEE}
-    }
-    ```
