@@ -233,24 +233,30 @@ The datasets contain daily airline information covering from flight information,
 Please make sure the dataset set has been stored to :open_file_folder:`./datasets/app-dataset/full` and Airport Information has been stored to :open_file_folder:`./datasets/AIRPORTS_INFO.csv`.
 And the folder :open_file_folder:`./models` has been created for log storage.  
 **Task List**:
-- [00_sample_dataset.py](./app/00_sample_dataset.py)
-  Randomly sample dataset from the main dataset. 
-  :white_check_mark:**`CSLINUX Support`**
-- [01_DecisionTree.py](./app/01_DecisionTree.py) 
-  Spark implemented Decision Tree with K-Folds tunning and test set evaluation.
-  :white_check_mark:**`CSLINUX Support`**
-- [01_RandomForest.py](./app/01_RandomForest.py) 
-  Spark implemented Random Forest with K-Folds tunning and test set evaluation.
-  :white_check_mark:**`CSLINUX Support`**
-- [01_GrediantBoost.py](./app/01_GrediantBoost.py)
-  Spark implemented Grediant Boost with K-Folds tunning and test set evaluation.
-  :white_check_mark:**`CSLINUX Support`**
-- [01_GuassianRegression.py](./app/01_GuassianRegression.py)
-  Spark implemented Gaussian Regression with K-Folds tunning and test set evaluation.
-  :white_check_mark:**`CSLINUX Support`**
-- [01_LinearRegression.py](./app/01_LinearRegression.py)
-  Spark implemented Linear Regression with K-Folds tunning and test set evaluation.
-  :white_check_mark:**`CSLINUX Support`**
+- [00_sample_dataset.py](./app/00_sample_dataset.py)  
+  Randomly sample dataset from the main dataset.  
+  :white_check_mark:**`CSLINUX Support`**  
+  :star:**`Based on SPARK`**
+- [01_DecisionTree.py](./app/01_DecisionTree.py)   
+  Spark implemented Decision Tree with K-Folds tunning and test set evaluation.  
+  :white_check_mark:**`CSLINUX Support`**  
+  :star:**`Based on SPARK`**
+- [01_RandomForest.py](./app/01_RandomForest.py)  
+  Spark implemented Random Forest with K-Folds tunning and test set evaluation.  
+  :white_check_mark:**`CSLINUX Support`**  
+  :star:**`Based on SPARK`**
+- [01_GrediantBoost.py](./app/01_GrediantBoost.py)  
+  Spark implemented Grediant Boost with K-Folds tunning and test set evaluation.  
+  :white_check_mark:**`CSLINUX Support`**  
+  :star:**`Based on SPARK`**
+- [01_GuassianRegression.py](./app/01_GuassianRegression.py)  
+  Spark implemented Gaussian Regression with K-Folds tunning and test set evaluation.  
+  :white_check_mark:**`CSLINUX Support`**  
+  :star:**`Based on SPARK`**
+- [01_LinearRegression.py](./app/01_LinearRegression.py)  
+  Spark implemented Linear Regression with K-Folds tunning and test set evaluation.  
+  :white_check_mark:**`CSLINUX Support`**  
+  :star:**`Based on SPARK`**
 
 ### :package: Flight foresight
 
