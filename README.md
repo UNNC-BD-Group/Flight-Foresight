@@ -37,9 +37,10 @@
 &emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Airline Delay Analysis](#packageairline-delay-analysis)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Methods](#large_blue_diamondmethods)  
 &emsp;&emsp;&#x2523;&#x2501;&ensp;[:large_blue_diamond:Codes](#large_blue_diamondcodes)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Pre-requisite](#package-pre-requisite)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Tasks](#package-tasks)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Pre-requisite](#package-pre-requisite)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x251C;&ensp;[:package:Packages](#package-packages)  
+&emsp;&emsp;&#x2503;&emsp;&emsp;&ensp;&#x2514;&ensp;[:package:Tasks](#package-tasks)  
+&emsp;&emsp;&#x2517;&#x2501;&ensp;[:large_blue_diamond:Report](#bookreport)
 
 
 ## :large_blue_diamond:Introduction
@@ -314,3 +315,15 @@ streamlit run flight_foresight.py
 ```
 
 ![alt](imgs/flight-foresight-screenshot.png)
+
+### :book:Report
+#### :book:Final Submission
+[BD02.pdf](./docs/Reports/Final-Report/BD02.pdf)`Update:2023-05-06`
+
+#### :book:Individual Report
+- Jiarui LI
+  [20216422.pdf](./docs/Reports/Individual-Report/20216422.pdf)`Update:2023-05-06`
+- Ran JI
+  [20217337.pdf](./docs/Reports/Individual-Report/20217337.pdf)`Update:2023-05-06`
+- Yik Lun Yelan LAU
+  20217531.pdf :hourglass:
