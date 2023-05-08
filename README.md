@@ -327,3 +327,111 @@ streamlit run flight_foresight.py
   [20217337.pdf](./docs/Reports/Individual-Report/20217337.pdf)`Update:2023-05-06`
 - Yik Lun Yelan LAU
   20217531.pdf :hourglass:
+
+#### :book:References
+- [1] V. Marx, “The big challenges of big data.” in Nature., no. 498, 2013, p.
+255–260.
+- [2] W. Raghupathi and V. Raghupathi, “Big data analytics in healthcare:
+promise and potential,” Health information science and systems, vol. 2,
+pp. 1–10, 2014.
+- [3] R. Kitchin, “The real-time city? big data and smart urbanism,” GeoJour-
+nal, vol. 79, pp. 1–14, 2014.
+- [4] Y. Jiang, Y. Liu, D. Liu, and H. Song, “Applying machine learning
+to aviation big data for flight delay prediction,” in 2020 IEEE Intl
+Conf on Dependable, Autonomic and Secure Computing, Intl Conf on
+Pervasive Intelligence and Computing, Intl Conf on Cloud and Big
+Data Computing, Intl Conf on Cyber Science and Technology Congress
+(DASC/PiCom/CBDCom/CyberSciTech), 2020, pp. 665–672.
+- [5] C. Snijders, U. Matzat, and U.-D. Reips, ““big data”: big gaps of
+knowledge in the field of internet science,” International journal of
+internet science, vol. 7, no. 1, pp. 1–5, 2012.
+- [6] Z. Lv, H. Song, P. Basanta-Val, A. Steed, and M. Jo, “Next-generation
+big data analytics: State of the art, challenges, and future research
+topics,” IEEE Transactions on Industrial Informatics, vol. 13, no. 4,
+pp. 1891–1899, 2017.
+- [7] G. Dartmann, H. Song, and A. Schmeink, Big data analytics for cyber-
+physical systems: machine learning for the internet of things. Elsevier,
+2019.
+- [8] R. Boggavarapu, P. Agarwal, and R. K. D.H, “Aviation delay estimation
+using deep learning,” in 2019 4th International Conference on Informa-
+tion Systems and Computer Networks (ISCON), 2019, pp. 689–693.
+- [9] K. Sharma, R. L. Eliganti, B. S. K. Meghana, and G. Gayatri, “Error
+calculation of flight delay prediction using various machine learning
+approaches,” in 2022 IEEE International Conference on Current Devel-
+opment in Engineering and Technology (CCET), 2022, pp. 1–5.
+- [10] B. Thiagarajan, L. Srinivasan, A. V. Sharma, D. Sreekanthan, and
+V. Vijayaraghavan, “A machine learning approach for prediction of on-
+time performance of flights,” in 2017 IEEE/AIAA 36th Digital Avionics
+Systems Conference (DASC). IEEE, 2017, pp. 1–6.
+- [11] F. A. Administration, “Cost of delay estimates 2019,”
+https://www.faa.gov/data research/aviation data statistics/media/cost d-
+elay estimates.pdf, 07 2020.
+- [12] S. Choi, Y. J. Kim, S. Briceno, and D. Mavris, “Prediction of weather-
+induced airline delays based on machine learning algorithms,” in 2016
+IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016,
+pp. 1–6.
+- [13] B. Thiagarajan, L. Srinivasan, A. V. Sharma, D. Sreekanthan, and
+V. Vijayaraghavan, “A machine learning approach for prediction of on-
+time performance of flights,” in 2017 IEEE/AIAA 36th Digital Avionics
+Systems Conference (DASC), 2017, pp. 1–6.
+- [14] S. Addu, P. R. Ambati, S. R. Kondakalla, H. Kunchakuri, and M. Thot-
+tempudi, “Predicting delay in flights using machine learning,” in 2022
+International Conference on Applied Artificial Intelligence and Comput-
+ing (ICAAIC), 2022, pp. 374–379.
+- [15] J. J. Rebollo and H. Balakrishnan, “Characterization and prediction of air
+traffic delays,” Transportation research part C: Emerging technologies,
+vol. 44, pp. 231–241, 2014.
+- [16] A. Klein, C. Craun, and R. S. Lee, “Airport delay prediction using
+weather-impacted traffic index (witi) model,” in 29th Digital Avionics
+Systems Conference. IEEE, 2010, pp. 2–B.
+- [17] L. Belcastro, F. Marozzo, D. Talia, and P. Trunfio, “Using scalable data
+mining for predicting flight delays,” ACM Transactions on Intelligent
+Systems and Technology (TIST), vol. 8, no. 1, pp. 1–20, 2016.
+- [18] H. Alonso and A. Loureiro, “Predicting flight departure delay at porto
+airport: A preliminary study,” in 2015 7th International Joint Conference
+on Computational Intelligence (IJCCI), vol. 3, 2015, pp. 93–98.
+- [19] N. Xu, G. Donohue, K. B. Laskey, and C.-H. Chen, “Estimation of delay
+propagation in the national aviation system using bayesian networks,”
+in 6th USA/Europe Air Traffic Management Research and Development
+Seminar. FAA and Eurocontrol Baltimore, 2005.
+- [20] S. Khanmohammadi, S. Tutun, and Y. Kucuk, “A new multilevel input
+layer artificial neural network for predicting flight delays at jfk airport,”
+Procedia Computer Science, vol. 95, pp. 237–244, 2016.
+- [21] E. Demir and V. B. Demir, “Predicting flight delays with artificial neural
+networks: Case study of an airport,” in 2017 25th Signal Processing and
+Communications Applications Conference (SIU), 2017, pp. 1–4.
+- [22] N. Chakrabarty, “A data mining approach to flight arrival delay predic-
+tion for american airlines,” in 2019 9th Annual Information Technol-
+ogy, Electromechanical Engineering and Microelectronics Conference
+(IEMECON). IEEE, 2019, pp. 102–107.
+- [23] V. Natarajan, S. Meenakshisundaram, G. Balasubramanian, and S. Sinha,
+“A novel approach: Airline delay prediction using machine learning,” in
+2018 International Conference on Computational Science and Compu-
+tational Intelligence (CSCI), 2018, pp. 1081–1086.
+- [24] Y. Ding, “Predicting flight delay based on multiple linear regression,” in
+IOP conference series: Earth and environmental science, vol. 81, no. 1.
+IOP Publishing, 2017, p. 012198.
+- [25] I. H. Witten and E. Frank, “Data mining: practical machine learning
+tools and techniques with java implementations,” Acm Sigmod Record,
+vol. 31, no. 1, pp. 76–77, 2002.
+- [26] K. Sharma and T. S. Kiranmai, “Prediction of cardiovascular diseases
+using genetic algorithm and deep learning techniques,” INTERNA-
+TIONAL JOURNAL OF EMERGING TRENDS IN ENGINEERING AND
+DEVELOPMENT, vol. 3, no. 10.26808, 2021.
+- [27] S. Manna, S. Biswas, R. Kundu, S. Rakshit, P. Gupta, and S. Barman,
+“A statistical approach to predict flight delay using gradient boosted
+decision tree,” in 2017 International conference on computational intel-
+ligence in data science (ICCIDS). IEEE, 2017, pp. 1–5.
+- [28] Z. Chen, D. Guo, and Y. Lin, “A deep gaussian process-based flight
+trajectory prediction approach and its application on conflict detection,”
+Algorithms, vol. 13, no. 11, p. 293, 2020.
+- [29] K. Ito and R. Nakano, “Optimizing support vector regression hyperpa-
+rameters based on cross-validation,” in Proceedings of the International
+Joint Conference on Neural Networks, 2003., vol. 3, 2003, pp. 2077–
+2082 vol.3.
+- [30] H. Moayedi, A. Osouli, H. Nguyen, and A. S. A. Rashid, “A novel
+harris hawks’ optimization and k-fold cross-validation predicting slope
+stability,” Engineering with Computers, vol. 37, pp. 369–379, 2021.
+- [31] P. Probst, A.-L. Boulesteix, and B. Bischl, “Tunability: Importance
+of hyperparameters of machine learning algorithms,” The Journal of
+Machine Learning Research, vol. 20, no. 1, pp. 1934–1965.
